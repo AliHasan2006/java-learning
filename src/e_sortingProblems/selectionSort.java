@@ -21,13 +21,13 @@ public class selectionSort {
         for (int i = 0; i < length; i++) {
             int smallest = i;
             for (int j = i+1; j < length+1; j++){
-                if (arr[smallest] > arr[j]){
-                    smallest=j;
+                if (arr[smallest] > arr[j]) {
+                    smallest = j;
                 }
-                int temp = arr[smallest];
-                arr [smallest] =arr[i];
-                arr[i]=temp;
-            }
+        }
+            int temp = arr[smallest];
+            arr [smallest] =arr[i];
+            arr[i]=temp;
         }
 
         System.out.println();

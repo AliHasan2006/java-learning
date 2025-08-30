@@ -16,7 +16,7 @@ public class insertionSort {
         printArray(arr);
         int length;
         length = arr.length - 1;
-        int smallestElement = arr[0];
+//        int smallestElement = arr[0];
 //        System.out.println(length);
         for (int i = 1; i <=length; i++) {
             int currentElement = arr[i];

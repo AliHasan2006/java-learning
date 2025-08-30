@@ -26,7 +26,7 @@ public class firstLastOccurInString {
     }
     public static void main(String[] args) {
         String str="ali hasan";
-        int count = 0;
+//        int count = 0;
         findOccur(str,'a',0);
     }
 }
