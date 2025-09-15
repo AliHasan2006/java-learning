@@ -1,5 +1,5 @@
 package f_twoPointersProblems;
-// subArray Sum problem using Kadane's Algorithm
+//Max subArray Sum problem using Kadane's Algorithm
 
 public class kadanesAlgo {
     public static void main(String[] args) {
