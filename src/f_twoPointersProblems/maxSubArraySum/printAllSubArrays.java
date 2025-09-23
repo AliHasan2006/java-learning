@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.maxSubArraySum;
 
 public class printAllSubArrays {
     public static void main(String[] args) {

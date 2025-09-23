@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.maxSubArraySum;
 //Max subArray Sum problem using Kadane's Algorithm
 
 public class kadanesAlgo {

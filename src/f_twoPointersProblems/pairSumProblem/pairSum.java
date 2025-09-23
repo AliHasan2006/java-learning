@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.pairSumProblem;
 
 // Return a pair in sorted array with target sum
 

@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.pairSumProblem;
 
 import java.util.ArrayList;
 import java.util.List;

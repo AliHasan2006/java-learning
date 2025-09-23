@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.prodcuctofArrayExceptSelfProblem;
 
 import java.util.Arrays;
 
