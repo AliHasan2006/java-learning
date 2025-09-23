@@ -5,7 +5,7 @@ package d_recursionInJava;
      'b' - 'a' = 1;
  */
 public class rmvDuplicates {
-    public static boolean map[] = new boolean[26];
+    public static boolean[] map = new boolean[26];
      public static void rmvDuplicates(String str, int idx, String newStr){
          if (idx==str.length()){
              System.out.println(newStr);
@@ -24,6 +24,8 @@ public class rmvDuplicates {
 
     public static void main(String[] args) {
         String str = "abccddaadcaa";
+//        System.out.println(map[1]);
         rmvDuplicates(str,0,"");
+//        System.out.println(map[1]);
     }
 }

@@ -2,7 +2,7 @@ package c_stringsInJava;
 
 public class stringReverseProblem {
     public static void main(String[] args) {
-        StringBuilder str = new StringBuilder("Hello");
+        StringBuilder str = new StringBuilder("ulta");
         System.out.println(str);
         for (int i = 0; i < str.length()/2; i++) {
             int front = i;

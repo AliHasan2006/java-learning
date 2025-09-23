@@ -10,7 +10,7 @@ public class recursionProblem07 {
       System.out.print(str.charAt(idx));
      revString(str,idx-1);
   }
-
+//time complexity O(n) =
     public static void main(String[] args) {
         String str = "Ali Hasan";
         revString(str,str.length()-1);

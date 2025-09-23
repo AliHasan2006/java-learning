@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.majorityElementProblem;
 
 import java.util.Arrays;
 

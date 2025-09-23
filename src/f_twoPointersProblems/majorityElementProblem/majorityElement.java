@@ -1,4 +1,4 @@
-package f_twoPointersProblems;
+package f_twoPointersProblems.majorityElementProblem;
 
 public class majorityElement {
     public static void main(String[] args) {
