@@ -1,10 +1,10 @@
-package f_twoPointersProblems;
+package h_binarySearchProblems;
 
 import java.util.Arrays;
 
 public class binarySearch {
     public static void main(String[] args) {
-        int arr[] = {3, 45, 62, 242, 444, 1000};
+        int arr[] = {3, 45, 62, 242, 55, 444, 1000};
         int targetVal = 242;
 
         // Step 1: Sort array for binary search
