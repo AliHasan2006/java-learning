@@ -5,7 +5,7 @@ import java.util.List;
 
 public class pairSumOptimal {
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 6, 8};
+        int[] arr = {1, 7, 5, 2, 8};
         List<List<Integer>> pairs = new ArrayList<>();
         int targetVal = 9;
         int i = 0;
@@ -24,7 +24,6 @@ public class pairSumOptimal {
                 pair.add(arr[i]);
                 pair.add(arr[j]);
                 pairs.add(pair);
-
                 // move both pointers
                 i++;
                 j--;

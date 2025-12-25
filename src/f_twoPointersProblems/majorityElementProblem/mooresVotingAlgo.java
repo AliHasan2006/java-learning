@@ -4,7 +4,7 @@ public class mooresVotingAlgo {
     // Moore's Voting Algorithm:
     // Idea: Majority element ki frequency hamesha n/2 se zyada hoti hai.
     public static void main(String[] args) {
-        int[] arr = {1, 2, 1, 2, 1, 1, 3,1, 3, 3, 35, 3};
+        int[] arr = {1, 2, 1, 2, 1, 1, 3,1, 3,};
         int ans = 0;
         int freqCount = 0;
         int n = arr.length;
@@ -13,7 +13,7 @@ public class mooresVotingAlgo {
         for (int i = 0; i < n; i++) {
             if (freqCount == 0) {
                 ans = arr[i];
-//                freqCount = 1;
+                freqCount = 1;
             } else if (arr[i] == ans) {
                 freqCount++;
             } else {

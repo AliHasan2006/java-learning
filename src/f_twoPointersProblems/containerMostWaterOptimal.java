@@ -11,8 +11,11 @@ public class containerMostWaterOptimal {
             int ht = Math.min(height[leftPointer],height[rightPointer]);
             int currWater = wt*ht;
             maxWater = Math.max(maxWater,currWater);
-            if (leftPointer < rightPointer) leftPointer++;
-            if (rightPointer<leftPointer) rightPointer++;
+            if (height[leftPointer] < height[rightPointer]) {
+                leftPointer++;
+            } else {
+                rightPointer--;
+            }
         }
         System.out.println(maxWater);
     }

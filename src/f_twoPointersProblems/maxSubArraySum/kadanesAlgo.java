@@ -15,3 +15,5 @@ public class kadanesAlgo {
         System.out.println("Time Complexity of this code is O(n) and and this is a Linear program\nThis is a optimal approach to print subarray sum");
     }
 }
+
+// Kadane's Alog logic -> Agar running sum negative ho jaaye to discard kardo, warna continue karke max update karte raho.
