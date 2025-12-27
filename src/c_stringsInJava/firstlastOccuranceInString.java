@@ -16,7 +16,7 @@ public class firstlastOccuranceInString {
                 }
             }
         }
-        System.out.println(firstOccurance);
-        System.out.println(lastOccurance);
+        System.out.println("first occurance of b is " +firstOccurance);
+        System.out.println("last occurance of c is " +lastOccurance);
     }
 }
