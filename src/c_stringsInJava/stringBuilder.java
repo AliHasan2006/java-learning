@@ -24,5 +24,11 @@ public class stringBuilder {
         sb.insert(0,'T');
         sb.append('s');
         System.out.println(sb);
+        String str = "Hello";
+        System.out.println(str);
+        str = "World";
+        System.out.println(str);
+        str = str+ "  Hello";
+        System.out.println(str);
     }
 }
