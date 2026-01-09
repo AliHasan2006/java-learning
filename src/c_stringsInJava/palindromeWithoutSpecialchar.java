@@ -14,7 +14,6 @@ public class palindromeWithoutSpecialchar {
         boolean isPalindrome = true;
         str = str.toLowerCase();
         while (start < end){
-
             if(!isAlphanumeric(str.charAt(start))){
                 start ++;
                 continue;
