@@ -1,13 +1,15 @@
 package c_stringsInJava;
 
+import java.util.Scanner;
+
 public class stringPalindrome {
-
-    public static boolean checkAlphaNumericVal(char c){
-        if ()
-    }
     public static void main(String[] args) {
-        String str = "madam";
 
+        String str;
+        System.out.println("Enter any String");
+        Scanner sc = new Scanner(System.in);
+        str=sc.nextLine();
+        str = str.toUpperCase();
         int start = 0;
         int end = str.length() - 1;
         boolean isPalindrome = true;
