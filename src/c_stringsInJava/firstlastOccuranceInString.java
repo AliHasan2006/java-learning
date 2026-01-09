@@ -14,8 +14,8 @@ public class firstlastOccuranceInString {
                 else {
                     lastOccurance =i;
                 }
-            }
-        }
+    }
+}
         System.out.println("first occurance of b is " +firstOccurance);
         System.out.println("last occurance of c is " +lastOccurance);
     }
