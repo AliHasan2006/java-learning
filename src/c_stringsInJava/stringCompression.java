@@ -2,7 +2,7 @@ package c_stringsInJava;
 
 public class stringCompression {
     public static void main(String[] args) {
-        char[] arr = {'a','a','b','c','c','c','c'};
+        char[] arr = {'a','a','b','b','b','b','b','b','b','b','b','b','c','c','c'};
         int idx = 0;
         int n = arr.length;
 
@@ -27,7 +27,7 @@ public class stringCompression {
             i--;
         }
 
-        // ✅ Correct output
+        // Correct output
         System.out.println(new String(arr, 0, idx));
     }
 }
